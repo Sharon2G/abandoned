@@ -1,0 +1,109 @@
+Aurora Hawkins and Sharon Grace Kirubakaran 
+CS 447: Computer Game Design 
+Professor Scott Wallace 
+11/6/2024 
+
+
+Game Overview *****************************************************
+
+The game is called Abandoned. A maximum of three players are on another planet in what is left of an outer space colony. This colony has been damaged and evacuated. Players wake up and discover that in the confusion of the evacuation they have been left behind. Players need to call the ship and survive long enough to get picked up. Players will face enemies, and dodge debris as they try to get to their designated pick-up spot. The game is won when all players get to the pick-up point. 
+
+The game is a multiplayer 2-Dimensional platformer survival game. It will have a side view of the map, like most 2-D platformers. Players will jump, climb and run through the map, dodging debris. There will be enemies to deal with along the way. They can either be avoided or attacked. Players will work together to call the ship and get to the pick-up point. They will spend the first half of the game looking for a radio, and the second half getting to the pick-up point. There will be tools the players can use to attack enemies, and/or destroy debris. These tools will work as powerups to aid the players in their objective. 
+
+We’ll start off with a black background and an overlaying tile map. Players will see a map of a colony section, with piles of debris where some of the structure has broken. It will be an enclosed space with walls and floors. They will also see strange creatures and dropped tools. Players will be able to climb over debris piles, as well as jump and climb on walls. The players can attack creatures and destroy debris in their way. 
+
+We thought it would be interesting to create a game that can be done collaboratively.  
+
+ 
+
+Development Strategy *********************************************
+
+We will start from scratch and see if we can copy some code from project 1 as we go along. We will aim to have the first goal done by November 10th or soon after.  We’ll work on the next goal for a week or two. We’ll aim to have the third goal done by December 1st. 
+
+Goal 1: Game Base 
+
+Sharon will work on the maps and start on the camera. 
+
+Aurora will work on getting the camera to move with the player. 
+
+Aurora will start working on collisions. 
+
+The person who finishes their other tasks first will work on jumping, climbing and gravity. 
+
+Goal 2: Networking 
+
+The team will come up with an outline of the networking structure. 
+
+They will assign tasks to each teammate. 
+
+Goal 3: Power ups and Enemies 
+
+Aurora will do one of the power ups/tools and Sharon will do the other one. 
+
+Whoever finishes their tool first will outline the enemies and start pathfinding. 
+
+High Bar ****************************************************
+
+    More enemies 
+
+Pick a map to add one more enemy too. Add up to 12 enemies in a level. 
+
+    Falling Debris 
+
+Animations of fracturing terrain. Dust and debris will fall from ceilings. 
+
+    Shield tool 
+
+Add a shield to available tools. The shield turns off and on with a button and blocks enemies/falling debris. 
+
+    Varying enemy behavior 
+
+One enemy would head directly to the player, another would only start going toward player once they are a certain distance away. 
+
+    Tractor tool 
+
+A tool that moves objects. The tool will turn on and off with a button and pick up objects with another button. 
+
+    Doors and buttons 
+
+There will be doors that need buttons to be pressed to open them. 
+
+    Artwork 
+
+Create background artwork that fits with the space theme. 
+
+    Animation 
+
+Put in an introduction animation/picture that depicts the story introduction. 
+
+Low Bar *********************************************
+
+    Jumping and climbing 
+
+Players will be able to jump. They will also be able to climb walls. 
+
+    Scrolling world 
+
+The map will be bigger than the screen. The player will have a camera that moves with them through the map. 
+
+    4 levels 
+
+The game will have 4 maps. Each map will represent 1 level. 
+
+    2 tools 
+
+Players will be able to interact with a wall radio. They will be able to pick up and use an axe. 
+
+    2 player networking 
+
+The system will send messages back and forth so that two players can appear on screen. 
+
+    Debris 
+
+Players will have to navigate around piles of rubble. 
+
+    2 enemies 
+
+There will be two enemies on two levels who can attack the player. One of them will follow a set path. The other will find a path to the player. 
+
+ 
